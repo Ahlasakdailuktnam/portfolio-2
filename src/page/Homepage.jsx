@@ -1,7 +1,7 @@
 import React from "react";
 import { IoLogoFacebook } from "react-icons/io5";
 import { FaTelegram ,  FaInstagramSquare} from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaComputer, FaSquareXTwitter } from "react-icons/fa6";
 import profile from "../assets/profile.png";
 import movie from "../assets/movie.png";
 import iphone from "../assets/iphone.png";
@@ -17,22 +17,23 @@ import home from "../assets/home.png";
 import cv from "../assets/cv.png";
 import MySkills from "./MySkills";
 import AboutMe from "./AboutMe";
-
-
+import Project from "./Project";
+import skincare from "../assets/skincare.png"
 const Homepage = () => {
     const images = [
   { id: 1, src: movie },
   { id: 2, src: home },
-  { id: 3, src: cv },
+  { id: 3, src: skincare },
   { id: 4, src: iphone },
-  { id: 5, src: pizza },
+  { id: 5, src: cv },
   { id: 6, src: clothes },
-  { id: 7, src: pc },
+  { id: 7, src: pizza },
   { id: 8, src: spring },
   { id: 9, src: exercise },
   { id: 10, src: macha },
   { id: 11, src: koi },
-  { id: 12, src: ten11 }
+  { id: 13, src: pc },
+  { id: 14, src: ten11 }
 ];
   return (
     <div>
@@ -106,6 +107,7 @@ const Homepage = () => {
           <div>
             <MySkills />
             <AboutMe/>
+            <Project/>
           </div>
       </div>
     </div>
