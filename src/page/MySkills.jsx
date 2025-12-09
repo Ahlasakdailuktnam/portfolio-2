@@ -46,7 +46,7 @@ const skills = [
   { name: "C++", img: Cpp, percent: 50 },
   { name: "java", img: java, percent: 20 },
   { name: "VUE", img: vue, percent: 20 },
-  { name: "GIT", img: GIT, percent: 0 },
+  { name: "GIT", img: GIT, percent: 40 },
 ];
 const logos = [
   { name: "C", icon: <SiC /> },
