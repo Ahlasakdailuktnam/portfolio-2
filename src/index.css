@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import "tailwindcss";
+  .h-text{
+  font-style: normal;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  }
+  .p-text{
+    font-family: "Poppins", sans-serif;
+
+  }
+   @keyframes scroll {
+          0% {
+            transform: translateX(0%);
+          }
+          100% {
+            transform: translateX(-50%);
+          }
+        }
+        
+        .animate-scroll {
+          animation: scroll 20s linear infinite;
+          display: inline-flex;
+        }
+        
+        .animate-scroll:hover {
+          animation-play-state: paused;
+        }
+        .animate-scroll-3 {
+          animation: scroll 10s linear infinite;
+          display: inline-flex;
+        }
+        
+        .animate-scroll-3:hover {
+          animation-play-state: paused;
+        }
+        .animate-scroll-2 {
+          animation: scroll 25s linear infinite;
+          display: inline-flex;
+        }
+        
+        .animate-scroll-2:hover {
+          animation-play-state: paused;
+        }
