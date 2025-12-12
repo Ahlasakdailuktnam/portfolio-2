@@ -21,13 +21,13 @@ const Project = () => {
     <div>
       <div className='w-full lg:h-screen bg-black py-30 lg:px-20'>
         <h2 className='lg:text-[60px] text-4xl justify-center  lg:justify-start flex text-white p-text font-bold'>Recent Project</h2>
-        <p className='text-md lg:ms-20 ms-19 text-white'>Hover photo to see project details</p>
+        <p className='text-md lg:ms-20 lg:justify-start flex justify-center  text-white'>Hover photo to see project details</p>
 
-        <div className='grid lg:grid-cols-3 grid-cols-1 gap-10 lg:px-20 px-2 mt-5 p-text'>
+        <div className='grid lg:grid-cols-3 grid-cols-1 gap-10 lg:px-20 mt-5 p-text'>
           {images.map((item) => (
             <div
               key={item.id}
-              className="relative w-90 h-60 rounded-md overflow-hidden group"
+              className="relative w-90 h-60 rounded-md overflow-hidden group mx-auto"
             >
               <img
                 className="w-full h-full rounded-md transition-all duration-300 group-hover:blur-sm  group-hover:brightness-50"

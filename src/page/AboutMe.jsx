@@ -129,7 +129,7 @@ const AboutMe = () => {
       newTitle: "In Prison",
       description:
         "Went through a tough moment — basically real-life ‘maintenance mode’. No WiFi, no freedom, only thinking about my future bugs.",
-      image: prison,
+      image: computer2,
       color: "yellow",
       skills: [
         "Mental Strength",

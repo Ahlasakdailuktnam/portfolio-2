@@ -17,7 +17,10 @@
             transform: translateX(-50%);
           }
         }
-        
+        .p-te{
+          font-family: "Poppins", sans-serif;
+          font-weight: 900;
+        }
         .animate-scroll {
           animation: scroll 20s linear infinite;
           display: inline-flex;
@@ -42,3 +45,22 @@
         .animate-scroll-2:hover {
           animation-play-state: paused;
         }
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.duration-700 {
+  transition-duration: 700ms;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+        

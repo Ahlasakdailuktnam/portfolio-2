@@ -13,12 +13,10 @@ import macha from "../assets/macha.png";
 import spring from "../assets/spring.png";
 import exercise from "../assets/exercise.png";
 import clothes from "../assets/clothes.png";
+import skincare from "../assets/skincare.png";
 import home from "../assets/home.png";
 import cv from "../assets/cv.png";
-import MySkills from "./MySkills";
-import AboutMe from "./AboutMe";
-import Project from "./Project";
-import skincare from "../assets/skincare.png"
+
 const Homepage = () => {
     const images = [
   { id: 1, src: movie },
@@ -64,7 +62,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-      <div className="w-full h-300 bg-black py-5 lg:py-0">
+      <div className="w-full h-120 bg-black py-5 lg:py-0">
       <div className="overflow-hidden whitespace-nowrap">
         <div className="flex animate-scroll">
           <span className="text-white lg:text-5xl text-3xl font-extrabold mx-8">
@@ -104,11 +102,6 @@ const Homepage = () => {
           </span>
         </div>
       </div>
-          <div>
-            <MySkills />
-            <AboutMe/>
-            <Project/>
-          </div>
       </div>
     </div>
   );
