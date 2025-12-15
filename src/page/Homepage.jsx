@@ -34,18 +34,19 @@ const Homepage = () => {
   { id: 14, src: ten11 }
 ];
   return (
-    <div>
+    <div id="home">
       <div className="w-full lg:h-[740px] bg-black lg:py-25">
         <div className="flex justify-center lg:h-full h-[520px] lg:px-35">
           <div className="lg:w-[60%] w-full relative lg:h-[780px] h-[600px]">
             <div className="absolute inset-0 flex items-center justify-center z-10 translate-y-[-18%]">
-              <h1 className="text-white lg:text-[200px] text-[70px] font-black leading-none tracking-tighter opacity-50">
-                <span className="flex lg:gap-50 gap-20">WEB 
+              <h1 className="text-white lg:text-[200px] text-[80px] font-black leading-none tracking-tighter opacity-50" data-aos="fade-down">
+                <span className="flex lg:gap-50 gap-22">WEB 
                  <p>SITE</p> </span> DEVELOPER
               </h1>
             </div>
             <img
-              className="w-full lg:h-full h-full  object-cover absolute z-20 lg:translate-x-0 translate-x-[1%] translate-y-[-18%]"
+              className="w-full lg:h-full h-full  object-cover absolute z-20 lg:translate-x-0 translate-x-[1%] lg:translate-y-[-17%] translate-y-[-15%]" data-aos="zoom-out"  data-aos-delay="50"
+  data-aos-duration="900"
               src={profile}
               alt=""
             />

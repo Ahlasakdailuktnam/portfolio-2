@@ -10,7 +10,7 @@ import iphone from "../assets/iphone.png"
 
 const Project = () => {
   const images = [
-    { id: 1, src: movie, title: "Movie Website", language: "Tailwind", link: "https://lanhphalla03.github.io/anime-website/" },
+    { id: 1, src: movie, title: "Movie Website", language: "Tailwind", link: "https://ahlasakdailuktnam.github.io/movie/" },
     { id: 2, src: home, title: "Home Rent Website", language: "React.js", link: "https://yourlink2.com" },
     { id: 3, src: skincare, title: "Skincare Shop Website", language: "React.js", link: "https://yourlink3.com" },
     { id: 4, src: iphone, title: "iPhone Store Website", language: "Bootstrapt", link: "https://yourlink4.com" },
@@ -18,7 +18,7 @@ const Project = () => {
   ];
 
   return (
-    <div>
+    <div id='projects'>
       <div className='w-full lg:h-screen bg-black py-30 lg:px-20'>
         <h2 className='lg:text-[60px] text-4xl justify-center  lg:justify-start flex text-white p-text font-bold'>Recent Project</h2>
         <p className='text-md lg:ms-20 lg:justify-start flex justify-center  text-white'>Hover photo to see project details</p>

@@ -5,7 +5,7 @@ import { IoLocationSharp } from "react-icons/io5";
 
 const GetinTouch = () => {
   return (
-    <div className="w-full min-h-screen bg-black px-6 py-10 md:px-20 md:py-15">
+    <div id="contact" className="w-full min-h-screen bg-black px-6 py-10 md:px-20 md:py-15">
       <div className="flex flex-col md:flex-row justify-between gap-10 md:gap-0">
         <div className="md:w-[40%] w-full flex flex-col gap-6">
           <h2 className="text-5xl md:text-7xl text-white max-w-90 h-text">Get in Touch</h2>

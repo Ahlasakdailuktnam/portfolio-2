@@ -35,11 +35,12 @@ const AboutMe = () => {
       image: computer,
       color: "#2ecc71",
       skills: [
-        "Problem Solving",
-        "Logical Thinking",
-        "Basic Algorithms",
-        "Math Skills",
-        "Time Management",
+        "C/C++ Programming",
+        "Mathematic",
+        "Computer Fundamental",
+        "Philosophy",
+        "English for Computer",
+        "Khmer Culture",
       ],
     },
     {
@@ -52,10 +53,10 @@ const AboutMe = () => {
       color: "#e74c3c",
       skills: [
         "C Programming",
-        "C++ Programming",
-        "Debugging",
-        "Coding Logic",
-        "Basic Data Structures",
+        "OOP",
+        "Basic/Advance C++",
+        "Algorithm",
+        "Project Courses",
       ],
     },
     {
@@ -66,13 +67,7 @@ const AboutMe = () => {
         "Learned web design fundamentals like layout, UI/UX, and responsive websites.",
       image: web,
       color: "#f39c12",
-      skills: [
-        "UI/UX Basics",
-        "Layout Design",
-        "Responsive Design",
-        "Figma",
-        "Color Theory",
-      ],
+      skills: ["HTML", "CSS", "Tailwind", "Project Courses"],
     },
     {
       year: "2025",
@@ -86,7 +81,10 @@ const AboutMe = () => {
         "HTML",
         "CSS",
         "JavaScript",
-        "React Basics",
+        "Bootstrapt",
+        "Tailwind",
+        "ReactJs",
+        "Project Courses",
         "Git & GitHub",
         "API Fetching",
       ],
@@ -99,11 +97,12 @@ const AboutMe = () => {
       image: computer2,
       color: "gray",
       skills: [
-        "OOP",
+        "Data Communications",
+        "Java Programming",
+        "English for Reading",
+        "Database Systems Designs",
         "Data Structures",
-        "Database Basics",
-        "Group Projects",
-        "Critical Thinking",
+        "Computer Architecture",
       ],
     },
     {
@@ -120,7 +119,6 @@ const AboutMe = () => {
         "MySQL",
         "REST APIs",
         "Authentication Systems",
-        "Backend Logic",
       ],
     },
     {
@@ -128,12 +126,12 @@ const AboutMe = () => {
       title: "April-April(2028)",
       newTitle: "In Prison",
       description:
-        "Went through a tough moment — basically real-life ‘maintenance mode’. No WiFi, no freedom, only thinking about my future bugs.",
-      image: computer2,
+        "knnah ah trov krab ng pek kab vea lg",
+      image: prison,
       color: "yellow",
       skills: [
-        "Mental Strength",
-        "Self-Reflection",
+        "Kab knea",
+        "Juk tnam",
         "Discipline",
         "Patience",
         "Goal Planning",
@@ -183,7 +181,7 @@ const AboutMe = () => {
   }, [timelineData.length]);
 
   return (
-    <div className="relative bg-black pt-20  overflow-hidden p-text">
+    <div id="about" className="relative bg-black pt-20  overflow-hidden p-text">
       <div className="text-center mb-12">
         <h1 className="text-5xl lg:text-7xl font-bold mb-6 text-white ">
           My Journey
@@ -271,19 +269,18 @@ const AboutMe = () => {
 
                       <div className="mb-8">
                         <div className="flex flex-wrap gap-3">
-                          {
-                            item.skills.map((skill, i) => (
-                              <div
-                                key={i}
-                                className="px-4 py-2 rounded-lg text-sm font-medium"
-                                style={{
-                                  backgroundColor: `${item.color}15`,
-                                  color: item.color,
-                                }}
-                              >
-                                {skill}
-                              </div>
-                            ))}
+                          {item.skills.map((skill, i) => (
+                            <div
+                              key={i}
+                              className="px-4 py-2 rounded-lg text-sm font-medium"
+                              style={{
+                                backgroundColor: `${item.color}15`,
+                                color: item.color,
+                              }}
+                            >
+                              {skill}
+                            </div>
+                          ))}
                         </div>
                       </div>
                     </div>

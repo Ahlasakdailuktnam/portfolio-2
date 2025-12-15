@@ -18,7 +18,7 @@ import {
 import { FaJava } from "react-icons/fa";
 
 import download from "../assets/download.png";
-import Laravel from "../assets/Laravel.png";
+import Laravel from "../assets/jqery.png";
 import C from "../assets/C.png";
 import Cpp from "../assets/Cpp.png";
 import vue from "../assets/vue.png";
@@ -40,7 +40,7 @@ const skills = [
   { name: "REACT.JS", img: REACT, percent: 50 },
   { name: "PHP", img: download, percent: 10 },
   { name: "TAILWIND", img: TAILWIND, percent: 70 },
-  { name: "LARAVEL", img: Laravel, percent: 100 },
+  { name: "jQuery", img: Laravel, percent: 20 },
   { name: "MY SQL", img: mysql, percent: 30 },
   { name: "C", img: C, percent: 60 },
   { name: "C++", img: Cpp, percent: 50 },
@@ -90,7 +90,7 @@ const MySkills = () => {
   }, []);
 
   return (
-    <div>
+    <div id="skills">
       <div className="lg:py-20 py-10 lg:px-20 px-5 overflow-hidden bg-black">
         <h2 className="text-5xl text-white font-bold mb-10">My Skills</h2>
 
