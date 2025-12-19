@@ -121,22 +121,7 @@ const AboutMe = () => {
         "Authentication Systems",
       ],
     },
-    {
-      year: "2026",
-      title: "April-April(2028)",
-      newTitle: "In Prison",
-      description:
-        "knnah ah trov krab ng pek kab vea lg",
-      image: prison,
-      color: "yellow",
-      skills: [
-        "Kab knea",
-        "Juk tnam",
-        "Discipline",
-        "Patience",
-        "Goal Planning",
-      ],
-    },
+   
   ];
 
   const [activeIndex, setActiveIndex] = useState(0);

@@ -125,7 +125,7 @@ const CV = () => {
 
 
   const downloadCV = () => {
-    alert("No file upload here");
+    alert("ot mean file ey teh tver lg!!");
   };
 
   return (

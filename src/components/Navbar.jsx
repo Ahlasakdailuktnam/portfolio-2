@@ -49,7 +49,7 @@ const Navbar = () => {
 
         {openMenu && (
           <div className="md:hidden mt-5 px-1  bg-black text-white space-y-4 py-4 rounded-xl border border-gray-700">
-            <div className="flex gap-3">
+            <div className="flex gap-3  ">
             <HashLink className="hover:text-blue-300" smooth to="/home#home" onClick={() => setOpenMenu(false)}>
               Home
             </HashLink>
