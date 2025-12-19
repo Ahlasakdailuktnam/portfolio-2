@@ -26,7 +26,7 @@ const Project = () => {
     <div id='projects'>
       <div className='w-full lg:h-screen bg-black py-30 lg:px-20'>
         <h2 className='lg:text-[60px] text-4xl justify-center lg:justify-start flex text-white p-text font-bold'>Recent Project</h2>
-        <p className='text-md lg:ms-20 lg:justify-start flex justify-center text-white'>
+        <p className='text-lg lg:ms-20 lg:justify-start flex justify-center text-white'>
           {window.innerWidth >= 1024 ? "Hover photo to see project details" : "Tap photo to see project details"}
         </p>
 

@@ -51,12 +51,12 @@ const Servieces = () => {
 
   return (
     <div>
-      <div className="py-10 w-full overflow-hidden bg-black p-text lg:px-20 px-5">
+      <div className="lg:py-10 w-full overflow-hidden bg-black p-text lg:px-20 px-5">
         <div className="px-4 sm:px-8 md:px-12">
-          <h2 className="text-4xl flex justify-center lg:justify-start sm:text-4xl md:text-5xl lg:text-6xl text-white font-bold">
+          <h2 className="text-[45px] flex sm:text-4xl md:text-5xl lg:text-6xl text-white font-bold">
             My Servieces
           </h2>
-          <p className="text-sm lg:text-lg flex justify-center lg:mx-0 mx-auto text-white mt-2 max-w-2xl">
+          <p className="text-md lg:text-lg flex justify-center lg:mx-0 mx-auto text-white mt-2 max-w-2xl">
             I design modern and attractive websites that match your brand and give
             users a great experience.
           </p>

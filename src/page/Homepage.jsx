@@ -45,7 +45,7 @@ const Homepage = () => {
               </h1>
             </div>
             <img
-              className="w-full lg:h-full h-full  object-cover absolute z-20 lg:translate-x-0 translate-x-[2%]  lg:translate-y-[-17%] translate-y-[-15%]" data-aos="zoom-out"  data-aos-delay="50"
+              className="w-full lg:h-full h-full  object-cover absolute z-20 lg:translate-x-0 translate-x-[1%]  lg:translate-y-[-17%] translate-y-[-15%]" data-aos="zoom-out"  data-aos-delay="50"
   data-aos-duration="900"
               src={profile}
               alt=""
@@ -66,11 +66,11 @@ const Homepage = () => {
       <div className="w-full h-120 bg-black py-5 lg:py-0">
       <div className="overflow-hidden whitespace-nowrap">
         <div className="flex animate-scroll">
-          <span className="text-white lg:text-5xl text-3xl font-extrabold mx-8">
+          <span className="text-white lg:text-5xl text-3xl font-extrabold mx-8 h-text">
              SMALL STEPS, SMALL PROGRESS, BUT KEEP CODING  → WEB DESIGNER → FRONTEND DEVELOPER → BACK-END DEVELOPER
             →LEVELING UP UTIL I BECOME A COMPLETE DEVELOPER →
           </span>
-          <span className="text-white lg:text-5xl text-3xl font-extrabold mx-8">
+          <span className="text-white lg:text-5xl text-3xl font-extrabold mx-8 h-text">
              SMALL STEPS, SMALL PROGRESS, BUT KEEP CODING  → WEB DESIGNER → FRONTEND DEVELOPER → BACK-END DEVELOPER
             →LEVELING UP UTIL I BECOME A COMPLETE DEVELOPER →
           </span> 
